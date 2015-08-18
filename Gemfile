@@ -12,6 +12,8 @@ group :production do
     gem 'rails_12factor'
 end
 
+#Use Devise gem to authenticate user
+gem 'devise', '3.4.1'
 #Use fontawesome library for icons
 gem 'font-awesome-sass', '4.2.0'
 #Use bootstrap library for styles
